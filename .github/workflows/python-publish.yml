@@ -27,7 +27,7 @@ jobs:
         pip install .
     - name: Run Tests
       run: |
-        python ./tests/fancydocket_test.py
+        python -m unittest -v tests.fancydocket_test.FancyDocketTests
     - name: Build and publish
       env:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
