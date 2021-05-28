@@ -22,6 +22,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
+    - name: Install fancy-docket
+      run: |
+        pip install .
     - name: Run Tests
       run: |
         python ./tests/fancydocket_test.py
