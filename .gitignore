@@ -1,0 +1,4 @@
+.vscode/*
+__pycache__/*
+fancydocket.egg-info/*
+tests/__pycache__/*
