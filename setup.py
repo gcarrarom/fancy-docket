@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     version='0.0.2',
     author='Gui Martins',
-    name='fancydocket',
+    name='fancy-docket',
     website='https://fancywhale.ca',
     email='gmartins@fancywhale.ca',
     description='Fancy writing for your next docket',
